@@ -1,14 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bagian2.arraylist;
 
-/**
- *
- * @author Lenovo
- */
+import java.util.ArrayList;
+
 public class NilaiTerbesar {
-    
+    public static void main(String[] args) {
+
+        ArrayList<Integer> angka = new ArrayList<>();
+
+        angka.add(10);
+        angka.add(25);
+        angka.add(8);
+        angka.add(50);
+        angka.add(17);
+
+        int terbesar = angka.get(0);
+
+        for (int a : angka) {
+            if (a > terbesar) {
+                terbesar = a;
+            }
+        }
+
+        System.out.println("Data angka : " + angka);
+        System.out.println("Nilai terbesar : " + terbesar);
+    }  
 }
