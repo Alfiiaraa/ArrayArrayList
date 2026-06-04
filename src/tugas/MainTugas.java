@@ -1,7 +1,7 @@
 package tugas;
 
-// Nama: Ara Anara
-// NPM : isi_npm_kamu
+// Nama: Sitti Nurhadisma Alfianti Saputra
+// NPM : 2410010500
 
 public class MainTugas {
 
