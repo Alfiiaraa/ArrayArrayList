@@ -12,7 +12,6 @@ public class Belanja {
         belanja.add("Minyak");
         belanja.add("Telur");
 
-        // Hapus item ke-2 (indeks 1)
         belanja.remove(1);
 
         System.out.println("Daftar Belanja:");
